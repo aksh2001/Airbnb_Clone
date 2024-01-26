@@ -1,0 +1,31 @@
+{
+  "name": "airbnb_clone",
+  "version": "1.0.0",
+  "description": "A travel app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksh2001/Airbnb_Clone.git"
+  },
+  "keywords": [],
+  "author": "Abhinav Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aksh2001/Airbnb_Clone/issues"
+  },
+  "homepage": "https://github.com/aksh2001/Airbnb_Clone#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "nodemon": "^2.0.12",
+    "uuid": "^9.0.1"
+  }
+}
